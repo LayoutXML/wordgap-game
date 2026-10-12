@@ -13,22 +13,48 @@
       html, body { background-color: #0a0a0f; margin: 0; padding: 0; color: #f8f8f8; }
     </style>
     
-    <title>WordGap | The Ultimate Alphabetical Word Puzzle</title>
-    <meta name="description" content="WordGap is a modern, minimalist word game where you use alphabetical logic to narrow down the target word. A fun challenge for word lovers!" />
-    <meta name="keywords" content="word game, word puzzle, alphabetical game, wordgap, brain game, dictionary game" />
-    
+    <title>WordGap – Free Daily Alphabetical Word Puzzle Game</title>
+    <meta name="description" content="WordGap is a free daily word puzzle. Use alphabetical logic to narrow the gap between two words and find the hidden word in as few guesses as possible. Play in your browser, no sign-up." />
+    <meta name="keywords" content="word game, word puzzle, daily word game, alphabetical game, wordgap, brain game, dictionary game" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="WordGap" />
+    <link rel="canonical" href="https://wordgap.app/" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="WordGap" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="https://wordgap.app/" />
-    <meta property="og:title" content="WordGap | Alphabetical Word Puzzle" />
-    <meta property="og:description" content="Narrow down the gap between words to find the target. A unique alphabetical challenge." />
-    <meta property="og:image" content="/logo.png" />
+    <meta property="og:title" content="WordGap – Free Daily Alphabetical Word Puzzle" />
+    <meta property="og:description" content="Narrow down the gap between two words to find the hidden one. A new alphabetical challenge every day." />
+    <meta property="og:image" content="https://wordgap.app/logo.png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="WordGap logo" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="WordGap | Alphabetical Word Puzzle" />
-    <meta property="twitter:description" content="Narrow down the gap between words to find the target. A unique alphabetical challenge." />
-    <meta property="twitter:image" content="/logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="WordGap – Free Daily Alphabetical Word Puzzle" />
+    <meta name="twitter:description" content="Narrow down the gap between two words to find the hidden one. A new alphabetical challenge every day." />
+    <meta name="twitter:image" content="https://wordgap.app/logo.png" />
+    <meta name="twitter:image:alt" content="WordGap logo" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "WordGap",
+      "url": "https://wordgap.app/",
+      "description": "A free daily alphabetical word puzzle. Guess words between a lower and upper bound to find the hidden target word.",
+      "applicationCategory": "GameApplication",
+      "genre": "Word game",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "inLanguage": "en",
+      "image": "https://wordgap.app/logo.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,6 +63,13 @@
     <link rel="stylesheet" crossorigin href="/assets/index-DT5R-K8p.css">
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main style="max-width:600px;margin:0 auto;padding:2rem 1rem;font-family:Inter,sans-serif;line-height:1.5">
+        <h1>WordGap: the daily alphabetical word puzzle</h1>
+        <p>WordGap is a free word-guessing game. You see a lower and an upper word, and a hidden word sits alphabetically between them. Guess a valid word inside the bounds: a guess before the hidden word becomes the new lower bound, and a guess after it becomes the new upper bound. Find the hidden word in as few guesses as possible.</p>
+        <p>Play a new daily puzzle every day, replay past puzzles from the archive, or keep going in endless mode. WordGap works offline and can be installed as an app.</p>
+        <noscript><p>WordGap needs JavaScript to run. Please enable it to play.</p></noscript>
+      </main>
+    </div>
   </body>
 </html>
