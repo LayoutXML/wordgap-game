@@ -11,7 +11,10 @@
     <meta name="apple-mobile-web-app-title" content="WordGap">
     <style>
       html, body { background-color: #0a0a0f; margin: 0; padding: 0; color: #f8f8f8; }
+      /* Crawlable fallback text: visually hidden so it never flashes before React mounts */
+      .seo-fallback { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
     </style>
+    <noscript><style>.seo-fallback { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; }</style></noscript>
     
     <title>WordGap – Free Daily Alphabetical Word Puzzle Game</title>
     <meta name="description" content="WordGap is a free daily word puzzle. Use alphabetical logic to narrow the gap between two words and find the hidden word in as few guesses as possible. Play in your browser, no sign-up." />
@@ -59,12 +62,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-CShgB3B4.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DT5R-K8p.css">
+    <script type="module" crossorigin src="/assets/index-ClLyGKjb.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C1PvGeAr.css">
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <div id="root">
-      <main style="max-width:600px;margin:0 auto;padding:2rem 1rem;font-family:Inter,sans-serif;line-height:1.5">
+      <main class="seo-fallback" style="max-width:600px;margin:0 auto;padding:2rem 1rem;font-family:Inter,sans-serif;line-height:1.5">
         <h1>WordGap: the daily alphabetical word puzzle</h1>
         <p>WordGap is a free word-guessing game. You see a lower and an upper word, and a hidden word sits alphabetically between them. Guess a valid word inside the bounds: a guess before the hidden word becomes the new lower bound, and a guess after it becomes the new upper bound. Find the hidden word in as few guesses as possible.</p>
         <p>Play a new daily puzzle every day, replay past puzzles from the archive, or keep going in endless mode. WordGap works offline and can be installed as an app.</p>
